@@ -2,13 +2,13 @@
 
 import json
 import traceback
-import requests
+
 from flask import Flask, request
 from flask.json import jsonify
 from .model_manager import *
 
 app = Flask(__name__)
-
+app.url_map.strict_slashes = False
 
 def get_err_return(err_msg):
     LOGGER.error(err_msg)

@@ -3,12 +3,12 @@
 import tarfile
 import time
 
-
 import pandas as pd
 import requests
 from .logger import LOGGER
 from .model_predict_service import app
 from .model_manager import LOADED_MODELS
+
 
 def load_model(model_code, model):
     global LOADED_MODELS
