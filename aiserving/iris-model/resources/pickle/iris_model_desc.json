@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "error": null,
+  "data": {
+    "inputs": {
+      "sepal_len": "Double",
+      "sepal_wid": "Double",
+      "petal_len": "Double",
+      "petal_wid": "Double"
+    },
+    "outputs": {
+      "model_predict": "Double"
+    }
+  }
+}
